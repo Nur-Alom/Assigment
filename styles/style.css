@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+/*----------------------
+    Navigation style 
+----------------------*/
+
+.navigation{
+    /* position: fixed; */
+    background-color: #2D25A0;
+    padding-top: 20px;
+}
+.link{
+    margin-left: 40px;
+}
+.link:hover{
+    color: red;
+}
+.nav-info{
+    margin-left: 5%;
+}
+.nav-info a{
+    text-decoration: none;
+    color: white;
+}
+.login:hover{
+    background-color: plum;
+}
+.login{
+    margin-left: 490px;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/*------------------
+    Fast-Section 
+------------------*/
+
+.head-info{
+    background-color: #2D25A0;
+    padding-top: 5%;
+    padding-bottom: 50px;
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+.details, .images img{
+    width: 530px;
+    height: 400px;
+}
+.title{
+    padding-bottom: 80px;
+    margin: 20%;
+}
+.images{
+    margin-left: 370px;
+}
+.title h1{
+    font-size: 45px;
+    color: white;
+}
+.color a{
+    text-decoration: none;
+    color: white;
+}
+.color{
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+.color:hover{
+    background-color: plum;
+}
+
+/*--------------------
+    Secend-section 
+--------------------*/
+
+.container{
+    margin-top: 70px;
+    width: 870px;
+    padding: 30px;
+}
+.player-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-left:13%;
+}
+.player-details{
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.player-images img{
+    width: 300px;
+    height: 256px;
+    border-radius: 15px;
+}
+
+/*---------------------
+    Higlight Section 
+----------------------*/
+
+.higlight-info{
+    display: flex;
+    align-items: center;
+}
+.higlight-text{
+    padding: 8%;
+}
+.higlight-text h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.higlight-text p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.higlight-images{
+    padding: 8%;
+}
+.higlight-images img{
+    width: 550px;
+    height: 410px;
+}
+
+/*----------------------
+     Footer section 
+----------------------*/
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.icon{
+    color: #969BAB;
+}
